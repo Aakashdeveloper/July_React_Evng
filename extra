@@ -55,6 +55,67 @@ Heavy as compare to func|   Functional are light in weight
 > Local package
 > Global Package
 
+/////
+Step To Create Package.json
+//////////
+> Name
+> Description
+> Script(start,build)
+> meta data
+> packages
+
+**NodeJs must be installed in system
+> navigate to the folder using cmd/terminal
+> npm init 
+> answer all questions
+> type yes
+
+
+//////////////////////////////
+Step To install packages
+//////////////////////////////
+> navigate to the folder using cmd/terminal
+> npm i react/ npm install react
+npm uninstall react
+
+
+
+>>>>>>>>>
+Need to generate Application
+Will go global
+<<<<<<<<<<<<<<<<<
+
+//////////////////////////////
+Step To install Global packages
+//////////////////////////////
+#window
+> Run cmd as administrator
+> npm i -g create-react-app
+
+#mac/linux
+> Open terminal
+> sudo npm i -g create-react-app
+
+
 ///Step to React App///
+
+####window
+>>>>>One Time<<<<<<
+> Run cmd as administrator
+> npm i -g create-react-app
+
+>>>>>Next All Time<<<<<<
+> navigate to the folder using cmd/terminal
+> create-react-app appname
+
+
+####Mac
+>>>>>One Time<<<<<<
+> Open terminal
+> sudo npm i -g create-react-app
+
+>>>>>Next All Time<<<<<<
+> navigate to the folder using cmd/terminal
+> create-react-app appname
 
 
