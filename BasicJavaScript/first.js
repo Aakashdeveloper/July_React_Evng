@@ -34,3 +34,14 @@ export default langauge1
 
 
 var English = new langauge1()
+
+
+
+function add(a,b){
+    var add = a+b
+    var sub = a-b
+    var out = add,sub
+    return out
+}
+
+hotreloading
