@@ -119,5 +119,21 @@ Step To install Global packages
 > create-react-app appname
 
 
-State
-Props
+
+>>>>>>>>>>>>>>>
+State > act like a local variable
+Props help to transfer the data
+
+ComponentA  =======>       ComponentB
+State        Props           State
+
+Transfer of data only happen when component is nested
+
+TagName
+ClassName
+id 
+
+ 
+map  > Help to iterarte over data
+filter > to filter out value
+indexOf
