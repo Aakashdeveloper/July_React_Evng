@@ -137,3 +137,22 @@ id
 map  > Help to iterarte over data
 filter > to filter out value
 indexOf
+
+var a = [0,1,2,3,4]
+a.map((data) => { return data*2})
+(5) [0, 2, 4, 6, 8]
+a.filter((data) => { return data*2})
+(4) [1, 2, 3, 4]
+
+var city = ["Delhi","London","Nice","Amsterdam"]
+undefined
+city.indexOf("Nice")
+2
+city.indexOf("London")
+1
+city.indexOf("Paris")
+-1
+
+
+var age =[54,23,15,67,34]
+age.filter((data)=> { return data>30})

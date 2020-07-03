@@ -6,9 +6,15 @@ class Header extends Component{
        super() 
     
        this.state={
-           title:'React APP'
+           title:'React APP',
+           keyword:'User Text'
        }
        
+    }
+
+    inputChange = (event) => {
+        console.log(event.target.value)
+        this.setState({keyword:event.target.value?event.target.value:'User text here'})
     }
     render(){
         return(
@@ -16,7 +22,9 @@ class Header extends Component{
                 <header>
                     <p className="logo">{this.state.title}</p>
                     <center>
-                        <input/>
+                        <input onChange={this.inputChange}/>
+                        <p>{this.state.keyword}</p>
+
                     </center>
                 </header>
                 <hr/>
