@@ -156,3 +156,8 @@ city.indexOf("Paris")
 
 var age =[54,23,15,67,34]
 age.filter((data)=> { return data>30})
+
+///
+npm i react-router-dom
+BrowserRouter Link Route
+<Link to="/">
