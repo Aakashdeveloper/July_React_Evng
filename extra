@@ -161,3 +161,9 @@ age.filter((data)=> { return data>30})
 npm i react-router-dom
 BrowserRouter Link Route
 <Link to="/">
+
+
+///Dummy Api////
+json-server
+npm i -g json-server
+json-server --watch db2.json --port 8700
