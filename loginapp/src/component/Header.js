@@ -19,8 +19,8 @@ const Header = () => {
                 <li><Link to="/list">User</Link></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><Link to="/list"><span class="glyphicon glyphicon-user"></span> Sign Up</Link></li>
-                <li><Link to="/list"><span class="glyphicon glyphicon-log-in"></span> Login</Link></li>
+                <li><Link to="/"><span class="glyphicon glyphicon-user"></span> Sign Up</Link></li>
+                <li><Link to="/login"><span class="glyphicon glyphicon-log-in"></span> Login</Link></li>
               </ul>
             </div>
           </div>
