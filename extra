@@ -10,16 +10,15 @@ Npm
 React = 3
 React_hooks -1
 React-Redux =2
-React-JWT(Login Logut)-1
-/////////////////
-React-Saga -1
 React-GarphQL 1
+React-JWT(Login Logut)-1
+React-Saga -1
+Depolyment
+-> MERN
+/////////////////
 Basic React Native=1
 ----------------------
 Testing
-
-Depolyment
--> MERN
 -> Docker
 -> Nginx
 
@@ -188,3 +187,43 @@ json-server --watch db2.json --port 8700
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+
+////
+npm i apollo-boost graphql-tag react-apollo
+
+function looping(userInput){
+    for(i=0;i<userInput;i++){
+        console.log(i)
+    }
+}
+
+function  * looping(userInput){
+    for(i=0;i<userInput;i++){
+        yield i
+    }
+}
+undefined
+looping(3)
+looping {<suspended>}
+var data = looping(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
+
+
+/////
+React Native
+///////
+npm i -g create-react-native-app
+create-react-native-app myapp
