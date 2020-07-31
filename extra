@@ -15,9 +15,8 @@ React-JWT(Login Logut)-1
 React-Saga -1
 Depolyment
 -> MERN
-/////////////////
 Basic React Native=1
-----------------------
+//////////////////
 Testing
 -> Docker
 -> Nginx
@@ -227,3 +226,4 @@ React Native
 ///////
 npm i -g create-react-native-app
 create-react-native-app myapp
+npm run web
