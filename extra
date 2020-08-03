@@ -16,10 +16,11 @@ React-Saga -1
 Depolyment
 -> MERN
 Basic React Native=1
-//////////////////
 Testing
 -> Docker
 -> Nginx
+
+npm i enzyme-adapter-react-16  react-addons-test-utild react-test-renderer
 
 Mock API
 json-server
@@ -227,3 +228,22 @@ React Native
 npm i -g create-react-native-app
 create-react-native-app myapp
 npm run web
+
+
+>>>>>>>>>>>>>>>>>>>
+docker build . -t julyreact
+docker run -p 8086:3000 julyreact
+
+
+localhost:8086
+
+
+nginx.conf
+server {
+        listen       8081;
+        server_name  localhost;
+        location / {
+	    root   /var/www/react-app;
+        index  index.html index.htm;
+        }
+    }
